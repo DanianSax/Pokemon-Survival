@@ -28,12 +28,20 @@ type_chart = {
 
 
 def calculate_modifier(attack_type, target_type):
-    if attack_type in type_chart and target_type in type_chart[attack_type]["Fuerte contra"]:
-        return 2.0
-    elif attack_type in type_chart and target_type in type_chart[attack_type]["Débil contra"]:
-        return 0.5
-    else:
-        return 1.0
+    print(attack_type)
+    print(target_type)
+    if attack_type in type_chart:
+        for t in target_type:
+            if t in type_chart[attack_type]["Fuerte contra"]:
+                print("Ataque con ventaja")
+                return 2.0
+
+            if t in type_chart[attack_type]["Débil contra"]:
+                print("Ataque con desventaja")
+                return 0.5
+        else:
+            print("ataque normal")
+            return 1.0
 
 
 def health_no_below_zero(player_pokemon, enemy_pokemon):
@@ -84,8 +92,9 @@ def enemy_turn(player_pokemon, enemy_pokemon, player_profile):
 
         modifier = calculate_modifier(enemy_action["type"], player_pokemon["type"])
 
-        if enemy_action["type"] == player_pokemon["type"]:
+        if enemy_action["type"] in player_pokemon["type"]:
             modifier *= 1.5
+            print("golpe con STAB")
 
         damage_dealt = int(enemy_action["damage"] * modifier)
         # Print de control
@@ -128,8 +137,9 @@ def player_attack(player_pokemon, enemy_pokemon):
         chosen_attack = available_attacks[chosen_attack_idx - 1]
         modifier = calculate_modifier(chosen_attack["type"], enemy_pokemon["type"])
 
-        if chosen_attack["type"] == player_pokemon["type"]:
+        if chosen_attack["type"] in player_pokemon["type"]:
             modifier *= 1.5
+            print("golpe con STAB")
 
         damage_dealt = int(chosen_attack["damage"] * modifier)
         # Print de control
