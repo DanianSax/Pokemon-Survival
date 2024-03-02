@@ -1,0 +1,70 @@
+('C:\\Users\\Julian Danieli\\PycharmProjects\\Mastermind\\Projecto Final '
+ 'Python - Pokemon Survivor\\build\\combate_pokemon\\combate_pokemon.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'C:\\Users\\Julian Danieli\\PycharmProjects\\Mastermind\\Projecto Final '
+   'Python - Pokemon Survivor\\build\\combate_pokemon\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\Julian Danieli\\PycharmProjects\\Mastermind\\Projecto Final '
+   'Python - Pokemon Survivor\\build\\combate_pokemon\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\Julian Danieli\\PycharmProjects\\Mastermind\\Projecto Final '
+   'Python - Pokemon '
+   'Survivor\\build\\combate_pokemon\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\Julian Danieli\\PycharmProjects\\Mastermind\\Projecto Final '
+   'Python - Pokemon '
+   'Survivor\\build\\combate_pokemon\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\Julian Danieli\\PycharmProjects\\Mastermind\\Projecto Final '
+   'Python - Pokemon '
+   'Survivor\\build\\combate_pokemon\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\Users\\Julian Danieli\\PycharmProjects\\Mastermind\\Projecto Final '
+   'Python - Pokemon '
+   'Survivor\\build\\combate_pokemon\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Python3122\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Python3122\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Python3122\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'C:\\Python3122\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth_setuptools',
+   'C:\\Python3122\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Python3122\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('combate_pokemon',
+   'C:\\Users\\Julian Danieli\\PycharmProjects\\Mastermind\\Projecto Final '
+   'Python - Pokemon Survivor\\combate_pokemon.py',
+   'PYSOURCE')],
+ 'python312.dll',
+ True,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)

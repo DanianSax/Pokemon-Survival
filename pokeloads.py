@@ -5,6 +5,7 @@ from time import sleep
 from requests_html import HTMLSession
 
 # Base
+base_health = 100
 pokemon_base = {
     "name": "",
     "current_health": 100,
@@ -83,6 +84,7 @@ def get_all_pokemons():
 def main():
     pokemons = get_all_pokemons()
     pprint(pokemons)
+
 
 if __name__ == "__main__":
     main()
